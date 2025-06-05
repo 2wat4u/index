@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Jeux en ligne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .game-box {
+            background-color: #007acc;
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.2s ease-in-out;
+        }
+
+        .game-box:hover {
+            background-color: #005fa3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mes jeux en ligne</h1>
+    <div class="grid">
+        <a class="game-box" href="https://2wat4u.github.io/homophones/" target="_blank">Homophones</a>
+        <a class="game-box" href="https://2wat4u.github.io/calcul_mental" target="_blank">Calcul Mental</a>
+        <a class="game-box" href="https://2wat4u.github.io/wordle_eng" target="_blank">Wordle Anglais</a>
+        <a class="game-box" href="https://2wat4u.github.io/wordle" target="_blank">Wordle</a>
+        <a class="game-box" href="https://2wat4u.github.io/enigramme_eng" target="_blank">Enigramme Anglais</a>
+        <a class="game-box" href="https://2wat4u.github.io/enigramme" target="_blank">Enigramme</a>
+    </div>
+</body>
+
+</html>
